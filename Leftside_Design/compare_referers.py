@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+#Don't think I use this anymore
 
 def main():
     path = 'C:\\Users\\Owner\\Desktop\\Projects\\Upwork\\Leftside_Design\\'
