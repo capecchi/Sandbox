@@ -1,0 +1,16 @@
+wall
+Name,Cost Type,Unit Cost,Qty,Unit,Ext
+Screws Pro-Twist #7 7/16",Material,$0.00,0.0460919625,Box of 1000,=c3*d3
+2-1/2 in x 20 gauge track,Material,$0.00,387.172485,LF,=c4*d4
+Gypsum Board Wall Area to Paint,Summary,$0.00,0,Square Feet,=c5*d5
+Primer Interior Latex,Material,$0.00,0,Gallons,=c6*d6
+Interior Enamel Oil Base Semi-Gloss,Material,$0.00,0,Gallons,=c7*d7
+09.21.01 (1)Carpenter,Crew Hours,$0.00,36.87357,Crew Hours,=c8*d8
+4 in x 14 gauge - 10 ft high,Material,$0.00,145.18968187500002,EA,=c9*d9
+Powder Activated Fastener 3/4",Material,$0.00,0.9218392499999999,Box of 100,=c10*d10
+Metal Partition,Summary,$0.00,184.36784999999998,Linear Feet,=c11*d11
+09.90.07 (7) Painters,Crew Hours,$0.00,0,Crew Hours,=c12*d12
+PT-13,Material,$0.00,0,Gallons,=c13*d13
+Linear Feet of Interior Wall To Paint,Summary,$0.00,184.36784999999998,Linear Feet,=c14*d14
+
+STACK Construction Technologies is not responsible for ensuring the accuracy and completeness of this report. Results are not guaranteed.

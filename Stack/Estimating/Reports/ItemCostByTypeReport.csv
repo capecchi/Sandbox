@@ -1,0 +1,56 @@
+Material
+Room,Name,Cost Type,Unit Cost,Qty,Unit,Ext
+None,2-1/2 in x 20 gauge track,Material,$0.00,109.224801,LF,=d3*e3
+None,4 in x 14 gauge - 10 ft high,Material,$0.00,40.959300375,EA,=d4*e4
+None,Primer Interior Latex,Material,$0.00,0,Gallons,=d5*e5
+None,Interior Enamel Oil Base Semi-Gloss,Material,$0.00,0,Gallons,=d6*e6
+None,Screws Pro-Twist #7 7/16",Material,$0.00,0.0130029525,Box of 1000,=d7*e7
+None,Powder Activated Fastener 3/4",Material,$0.00,0.26005904999999996,Box of 100,=d8*e8
+None,PT-13,Material,$0.00,0,Gallons,=d9*e9
+Walk In Cooler,2-1/2 in x 20 gauge track,Material,$0.00,144.868857,LF,=d10*e10
+Walk In Cooler,4 in x 14 gauge - 10 ft high,Material,$0.00,54.325821375000004,EA,=d11*e11
+Walk In Cooler,Primer Interior Latex,Material,$0.00,0,Gallons,=d12*e12
+Walk In Cooler,Interior Enamel Oil Base Semi-Gloss,Material,$0.00,0,Gallons,=d13*e13
+Walk In Cooler,Screws Pro-Twist #7 7/16",Material,$0.00,0.0172462925,Box of 1000,=d14*e14
+Walk In Cooler,Powder Activated Fastener 3/4",Material,$0.00,0.34492585,Box of 100,=d15*e15
+Walk In Cooler,PT-13,Material,$0.00,0,Gallons,=d16*e16
+Men's Restroom,2-1/2 in x 20 gauge track,Material,$0.00,71.05425600000001,LF,=d17*e17
+Men's Restroom,4 in x 14 gauge - 10 ft high,Material,$0.00,26.645346,EA,=d18*e18
+Men's Restroom,Primer Interior Latex,Material,$0.00,0,Gallons,=d19*e19
+Men's Restroom,Interior Enamel Oil Base Semi-Gloss,Material,$0.00,0,Gallons,=d20*e20
+Men's Restroom,Screws Pro-Twist #7 7/16",Material,$0.00,0.00845884,Box of 1000,=d21*e21
+Men's Restroom,Powder Activated Fastener 3/4",Material,$0.00,0.16917680000000002,Box of 100,=d22*e22
+Men's Restroom,PT-13,Material,$0.00,0,Gallons,=d23*e23
+Women's Restroom,2-1/2 in x 20 gauge track,Material,$0.00,62.024571,LF,=d24*e24
+Women's Restroom,4 in x 14 gauge - 10 ft high,Material,$0.00,23.259214125,EA,=d25*e25
+Women's Restroom,Primer Interior Latex,Material,$0.00,0,Gallons,=d26*e26
+Women's Restroom,Interior Enamel Oil Base Semi-Gloss,Material,$0.00,0,Gallons,=d27*e27
+Women's Restroom,Screws Pro-Twist #7 7/16",Material,$0.00,0.007383877499999999,Box of 1000,=d28*e28
+Women's Restroom,Powder Activated Fastener 3/4",Material,$0.00,0.14767755,Box of 100,=d29*e29
+Women's Restroom,PT-13,Material,$0.00,0,Gallons,=d30*e30
+Summary
+Room,Name,Cost Type,Unit Cost,Qty,Unit,Ext
+None,Gypsum Board Wall Area to Paint,Summary,$0.00,0,Square Feet,=d33*e33
+None,Metal Partition,Summary,$0.00,52.01181,Linear Feet,=d34*e34
+None,Linear Feet of Interior Wall To Paint,Summary,$0.00,52.01181,Linear Feet,=d35*e35
+Walk In Cooler,Gypsum Board Wall Area to Paint,Summary,$0.00,0,Square Feet,=d36*e36
+Walk In Cooler,Metal Partition,Summary,$0.00,68.98517,Linear Feet,=d37*e37
+Walk In Cooler,Linear Feet of Interior Wall To Paint,Summary,$0.00,68.98517,Linear Feet,=d38*e38
+Men's Restroom,Gypsum Board Wall Area to Paint,Summary,$0.00,0,Square Feet,=d39*e39
+Men's Restroom,Metal Partition,Summary,$0.00,33.83536,Linear Feet,=d40*e40
+Men's Restroom,Linear Feet of Interior Wall To Paint,Summary,$0.00,33.83536,Linear Feet,=d41*e41
+Women's Restroom,Gypsum Board Wall Area to Paint,Summary,$0.00,0,Square Feet,=d42*e42
+Women's Restroom,Metal Partition,Summary,$0.00,29.53551,Linear Feet,=d43*e43
+Women's Restroom,Linear Feet of Interior Wall To Paint,Summary,$0.00,29.53551,Linear Feet,=d44*e44
+Crew Hours
+Room,Name,Cost Type,Unit Cost,Qty,Unit,Ext
+None,09.21.01 (1)Carpenter,Crew Hours,$0.00,10.402362,Crew Hours,=d47*e47
+None,09.90.07 (7) Painters,Crew Hours,$0.00,0,Crew Hours,=d48*e48
+Walk In Cooler,09.21.01 (1)Carpenter,Crew Hours,$0.00,13.797034,Crew Hours,=d49*e49
+Walk In Cooler,09.90.07 (7) Painters,Crew Hours,$0.00,0,Crew Hours,=d50*e50
+Men's Restroom,09.21.01 (1)Carpenter,Crew Hours,$0.00,6.767072000000001,Crew Hours,=d51*e51
+Men's Restroom,09.90.07 (7) Painters,Crew Hours,$0.00,0,Crew Hours,=d52*e52
+Women's Restroom,09.21.01 (1)Carpenter,Crew Hours,$0.00,5.907102,Crew Hours,=d53*e53
+Women's Restroom,09.90.07 (7) Painters,Crew Hours,$0.00,0,Crew Hours,=d54*e54
+
+STACK Construction Technologies is not responsible for ensuring the accuracy and completeness of this report. Results are not guaranteed.
