@@ -1,0 +1,39 @@
+Summary
+Name,Cost Type,Unit Cost,Qty,Unit,Ext
+CMU Wall 8" Wide (Area),Summary,$0.00,1181.3031761793982,Square Feet,=c3*d3
+Reinforced Vertical Cell Count,Summary,$0.00,169.38661249999998,Each,=c4*d4
+Material
+Name,Cost Type,Unit Cost,Qty,Unit,Ext
+Copper Fabric flashing 5 oz,Material,$3.11,837.3632630000001,Ft,=c7*d7
+CMU Std Wt 8" x 8" x 16",Material,$1.88,1281.3586254406287,Each,=c8*d8
+Rebar #5 5/8" Dia - LF,Material,$1.00,438.95800586727415,Lin Ft,=c9*d9
+220 Ladder Mesh Reinforcement,Material,$0.18,566.8479924000001,Linear Feet,=c10*d10
+Rebar Positioners,Material,$0.09,30.5927426,Pieces,=c11*d11
+270 Adjustable Ladder Eye-Wire,Material,$0.40,319.12938973454857,Linear Feet,=c12*d12
+Masonry Grout - Coarse,Material,$4.90,45.750582314800766,Cubic Feet,=c13*d13
+Type S 3000 LB Brick Mortar Colored,Material,$190.00,36.37285343850405,Bag,=c14*d14
+Brick Modular,Material,$0.52,34745.610984,ea,=c15*d15
+Sure Klean 600,Material,$11.35,30.179149795170712,Gal,=c16*d16
+Screws 1.5" Palomar Coated,Material,$0.04,3680.1803110809724,Each,=c17*d17
+CMU U Bond 8" x 8" x 16",Material,$2.03,47.965398496240596,Each,=c18*d18
+Alum Termination Bar,Material,$0.50,837.363263,Ft,=c19*d19
+Stainless Steel Drip Edge 3",Material,$0.79,837.363263,Ft,=c20*d20
+Mortar Net Wall Defender 2",Material,$1.25,837.363263,Ft,=c21*d21
+Cell Vents,Material,$0.35,380.619665,Ea,=c22*d22
+4x4x16 Brick #1,Material,$1.80,7799.327917990234,Ea,=c23*d23
+Type S 3000 LB Block Mortar,Material,$160.00,5.084567434308164,Bag,=c24*d24
+DW-10 W/legs for 1" ins Seismic,Material,$1.94,2866.209069687413,Ea,=c25*d25
+Back Fill Mortar Adjustable,Material,$145.00,3.8597621399176956,bag,=c26*d26
+Grout-8" Grout Solid Option,Material,$145.00,8.502719886000001,Bag,=c27*d27
+4x8x16 smooth gray block,Material,$1.26,701.683045875,Each,=c28*d28
+Labor
+Name,Cost Type,Unit Cost,Qty,Unit,Ext
+4x4x16 Brick Labor,Labor,$2.50,7799.327917990234,Ea,=c31*d31
+8" & 6" gray block - 5.50 per block,Labor,$5.50,1328.9660732018228,Ea,=c32*d32
+Modular Brick Labor 1.20 per brick,Labor,$1.20,34745.610984,Ea,=c33*d33
+4" Gray Block Labor 5.00 per block,Labor,$5.00,701.6830458749998,Ea,=c34*d34
+Summary
+Name,Cost Type,Unit Cost,Qty,Unit,Ext
+Modular Brick Area,Summary,$0.00,4963.6587119999995,sq ft,=c37*d37
+
+STACK Construction Technologies is not responsible for ensuring the accuracy and completeness of this report. Results are not guaranteed.
