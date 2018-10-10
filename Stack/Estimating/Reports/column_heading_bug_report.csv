@@ -1,0 +1,5 @@
+Name,Cost Type,Unit Cost,Qty,Unit,Ext
+2 coats,Material,$20.00,16.479972600000004,Gal,=c2*d2
+2 coats rolled,Labor,$20.00,24.719958899999998,MH,=c3*d3
+
+STACK Construction Technologies is not responsible for ensuring the accuracy and completeness of this report. Results are not guaranteed.
