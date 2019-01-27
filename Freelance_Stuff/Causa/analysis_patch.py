@@ -26,8 +26,8 @@ def main():
         in_inv_scan = f['in_inv_scan']
         imax = f['imax']
         index = np.arange(len(scan))
-        standard_in = metric.main(12,26,9,in_data)
-        standard_out = metric.main(12,26,9,out_data)
+        standard_in = metric.main(12, 26, 9, in_data)
+        standard_out = metric.main(12, 26, 9, out_data)
 
         print('FOR ',stock,' STOCK::')
         print('max return of ',in_inv_scan[imax],'occurs at a,b,c = ',scan[imax])

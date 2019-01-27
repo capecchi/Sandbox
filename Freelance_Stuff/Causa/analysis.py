@@ -31,7 +31,7 @@ def main(stock,
         data2 = data[ data['Date'] == 20131024]
 
         data = pd.concat([data1,data2])
-        met = metric.main(12,26,9,data,plot=True)
+        met = metric.main(12, 26, 9, data, plot=True)
         scanplot=False
                 
     if newdata:
@@ -68,16 +68,16 @@ def main(stock,
         for p in scan:
             print(l,'/',len(scan))
             l += 1
-            in_inv = metric.main(p[0],p[1],p[2],in_data)
+            in_inv = metric.main(p[0], p[1], p[2], in_data)
             in_inv_scan.append(in_inv)
             
         imax = index[ in_inv_scan == np.amax(in_inv_scan)]
         imax = imax[0]
     
         pmax = scan[imax]
-        out_inv = metric.main(pmax[0],pmax[1],pmax[2],out_data)
-        standard_in = metric.main(12,26,9,in_data)
-        standard_out = metric.main(12,26,9,out_data)
+        out_inv = metric.main(pmax[0], pmax[1], pmax[2], out_data)
+        standard_in = metric.main(12, 26, 9, in_data)
+        standard_out = metric.main(12, 26, 9, out_data)
         print('computation done in ',time.time()-t1,' seconds')
         print('max return of ',in_inv_scan[imax],'occurs at a,b,c = ',scan[imax])
         print('ROI on out-sample is ',out_inv)
@@ -117,7 +117,7 @@ def main(stock,
         in_data = data[ data['Date'] < 20151118 ]    
         out_data = data[ data['Date'] >= 20151118 ]
         p = scan[imax]
-        go = metric.main(p[0],p[1],p[2],data,write=True)
+        go = metric.main(p[0], p[1], p[2], data, write=True)
 
 #---PLOT DATA---------------------
     if newplotdata:
