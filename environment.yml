@@ -50,4 +50,6 @@ dependencies:
   - xz=5.2.5=h62dcd97_0
   - zlib=1.2.11=h8cc25b3_4
   - zstd=1.4.9=h19a0ad4_0
-prefix: C:\Users\Owner\miniconda3\envs\sandbox
+  - pip:
+    - gpxpy==1.5.0
+prefix: C:\Users\wcapecch\AppData\Local\Continuum\anaconda3\envs\sandbox
