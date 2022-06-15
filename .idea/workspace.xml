@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/acres_to_sidelength.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_days_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful_stuff/plot_last_color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lagrange_points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ostrich_eggs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/piyak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/throwaway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bft_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike_to_work.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpful_stuff/plot_last_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpful_stuff/plot_last_color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/race_elevation_profiles.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,16 +22,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>fname</find>
-      <find>enc</find>
-      <find>to_csv</find>
-      <find>rsun</find>
-      <find>rearth</find>
-      <find>rcm</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,16 +43,28 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Owner\Documents\GitHub\Sandbox\Leftside_Design" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox" />
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox\Freelance_Stuff\" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Documents\GitHub\Sandbox\Leftside_Design" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.throwaway">
-    <configuration name="acres_to_sidelength" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.bft_analysis">
+    <configuration name="bft_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acres_to_sidelength.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bft_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_days_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bike_to_work" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_days_training.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bike_to_work.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="perveance_scan_dummy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="grandmas_questions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/perveance_scan_dummy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grandmas_questions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="race_elevation_profiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/race_elevation_profiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,23 +170,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.acres_to_sidelength" />
-      <item itemvalue="Python.get_days_training" />
-      <item itemvalue="Python.perveance_scan_dummy" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.throwaway" />
+      <item itemvalue="Python.grandmas_questions" />
+      <item itemvalue="Python.race_elevation_profiles" />
+      <item itemvalue="Python.bike_to_work" />
+      <item itemvalue="Python.bft_analysis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bft_analysis" />
+        <item itemvalue="Python.race_elevation_profiles" />
+        <item itemvalue="Python.bike_to_work" />
+        <item itemvalue="Python.grandmas_questions" />
         <item itemvalue="Python.throwaway" />
-        <item itemvalue="Python.perveance_scan_dummy" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.acres_to_sidelength" />
-        <item itemvalue="Python.get_days_training" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -206,12 +205,41 @@
       <option name="project" value="LOCAL" />
       <updated>1548620327615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added numbering to grandmas questions (and pathing for working on work laptop)">
+      <created>1640959112329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640959112329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="played w/ race_elevation_profiles.py">
+      <created>1641592148078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641592148078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="folder restructuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder restructuring" />
+    <MESSAGE value="added numbering to grandmas questions (and pathing for working on work laptop)" />
+    <MESSAGE value="played w/ race_elevation_profiles.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="played w/ race_elevation_profiles.py" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1419" height="168" key="GridCell.Tab.0.bottom" timestamp="1599234798065">
@@ -286,6 +314,21 @@
           <url>file://$PROJECT_DIR$/test.py</url>
           <line>14</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/race_elevation_profiles.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bft_analysis.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bft_analysis.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
