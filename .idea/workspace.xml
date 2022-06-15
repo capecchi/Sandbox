@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bft_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike_to_work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpful_stuff/plot_last_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpful_stuff/plot_last_color.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/race_elevation_profiles.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,19 +49,7 @@
       <recent name="C:\Users\Owner\Documents\GitHub\Sandbox\Leftside_Design" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.bft_analysis">
+  <component name="RunManager" selected="Python.race_elevation_profiles">
     <configuration name="bft_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,15 +164,15 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bft_analysis" />
         <item itemvalue="Python.race_elevation_profiles" />
+        <item itemvalue="Python.bft_analysis" />
         <item itemvalue="Python.bike_to_work" />
         <item itemvalue="Python.grandmas_questions" />
         <item itemvalue="Python.throwaway" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -227,9 +213,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -240,52 +224,6 @@
     <MESSAGE value="added numbering to grandmas questions (and pathing for working on work laptop)" />
     <MESSAGE value="played w/ race_elevation_profiles.py" />
     <option name="LAST_COMMIT_MESSAGE" value="played w/ race_elevation_profiles.py" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1419" height="168" key="GridCell.Tab.0.bottom" timestamp="1599234798065">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="168" key="GridCell.Tab.0.bottom/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1599234798065" />
-    <state width="1419" height="168" key="GridCell.Tab.0.bottom/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1598385729993" />
-    <state width="1419" height="168" key="GridCell.Tab.0.center" timestamp="1599234798065">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="168" key="GridCell.Tab.0.center/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1599234798065" />
-    <state width="1419" height="168" key="GridCell.Tab.0.center/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1598385729993" />
-    <state width="1419" height="168" key="GridCell.Tab.0.left" timestamp="1599234798065">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="168" key="GridCell.Tab.0.left/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1599234798065" />
-    <state width="1419" height="168" key="GridCell.Tab.0.left/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1598385729992" />
-    <state width="1419" height="168" key="GridCell.Tab.0.right" timestamp="1599234798065">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="168" key="GridCell.Tab.0.right/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1599234798065" />
-    <state width="1419" height="168" key="GridCell.Tab.0.right/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1598385729993" />
-    <state width="1419" height="244" key="GridCell.Tab.1.bottom" timestamp="1596676318574">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.1.bottom/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1596676318574" />
-    <state width="1419" height="244" key="GridCell.Tab.1.bottom/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1592686330901" />
-    <state width="1419" height="244" key="GridCell.Tab.1.center" timestamp="1596676318574">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.1.center/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1596676318574" />
-    <state width="1419" height="244" key="GridCell.Tab.1.center/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1592686330901" />
-    <state width="1419" height="244" key="GridCell.Tab.1.left" timestamp="1596676318574">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.1.left/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1596676318574" />
-    <state width="1419" height="244" key="GridCell.Tab.1.left/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1592686330901" />
-    <state width="1419" height="244" key="GridCell.Tab.1.right" timestamp="1596676318574">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.1.right/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1596676318574" />
-    <state width="1419" height="244" key="GridCell.Tab.1.right/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1592686330901" />
-    <state x="221" y="75" key="SettingsEditor" timestamp="1598383501969">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="221" y="75" key="SettingsEditor/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1598383501969" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,6 +267,11 @@
           <url>file://$PROJECT_DIR$/bft_analysis.py</url>
           <line>96</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/race_elevation_profiles.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
