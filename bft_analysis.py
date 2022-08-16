@@ -16,17 +16,18 @@ else:
 m_per_mi = 1609.34
 
 
-def analyze_6_11_22_run():
+def ascent_descent_flat(gpxfn, normto=None):
 	m_per_mi = 1609.34
-	gpxfn = f'{direc}bft_sec2_6-11-22.gpx'
 	f = open(gpxfn, 'r')
 	gpx = gpxpy.parse(f)
 	pts = gpx.tracks[0].segments[0].points
 	'''compute distance (input is [lat, long])'''
 	latlon = np.array([[pt.latitude for pt in pts], [pt.longitude for pt in pts]])
 	dis = np.array([dist.distance(latlon[:, i], latlon[:, i + 1]).m for i in np.arange(len(latlon[0]) - 1)])  # m
-	## normalize to recorded distance- not sure why we don't get the 17.47 garmin recorded
-	dis *= 17.47/(sum(dis)/m_per_mi)
+	# normalize to recorded distance- not sure why we don't get the same dist garmin recorded
+	if normto is not None:
+		print(f'data shows {sum(dis) / m_per_mi:.2f}mi, normalizing to {normto} recorded by Garmin')
+		dis *= normto / (sum(dis) / m_per_mi)
 	cumdist_mile = np.append(0, np.cumsum(dis / m_per_mi))
 	alt = np.array([pt.elevation for pt in pts])  # m
 	dt = np.array([(pts[i + 1].time - pts[i].time).seconds for i in np.arange(len(pts) - 1)])
@@ -74,8 +75,10 @@ def analyze_6_11_22_run():
 	ava, avb, avc = np.nanmean(pace[ascent] * dpath[ascent]) / np.nanmean(dpath[ascent]), np.nanmean(
 		pace[descent] * dpath[descent]) / np.nanmean(dpath[descent]), np.nanmean(pace[flat] * dpath[flat]) / np.nanmean(
 		dpath[flat])
-	dista, distb, distc = np.sum(dpath[ascent]) / m_per_mi, np.sum(dpath[descent]) / m_per_mi, np.sum(dpath[flat]) / m_per_mi
-	print(f'{ava}, {avb}, {avc},{dista + distb + distc}mi, {(ava*dista+avb*distb+avc*distc)/60}h, {sum(dt)/60/sum(dpath)*m_per_mi}min/mile')
+	dista, distb, distc = np.sum(dpath[ascent]) / m_per_mi, np.sum(dpath[descent]) / m_per_mi, np.sum(
+		dpath[flat]) / m_per_mi
+	print(
+		f'{ava:.2f} ascent, {avb:.2f} descent, {avc:.2f} flat\n{dista + distb + distc:.2f}mi, {(ava * dista + avb * distb + avc * distc) / 60:.2f}h, {sum(dt) / 60 / sum(dpath) * m_per_mi:.2f}min/mile')
 	ascent_pace, descent_pace, flat_pace = np.copy(pace_sm), np.copy(pace_sm), np.copy(pace_sm)
 	ascent_pace[:], descent_pace[:], flat_pace[:] = np.nan, np.nan, np.nan
 	ascent_pace[ascent] = pace_sm[ascent]
@@ -101,4 +104,8 @@ def analyze_6_11_22_run():
 
 
 if __name__ == '__main__':
-	analyze_6_11_22_run()
+	fn1 = f'{direc}bft_sec2_6-11-22.gpx'
+	fn2 = f'{direc}bft_south_7-16-22.gpx'
+	
+	for fn, nt in zip([fn1, fn2], [17.47, 23.15]):
+		ascent_descent_flat(fn, normto=nt)
