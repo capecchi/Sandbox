@@ -16,8 +16,28 @@ else:
 m_per_mi = 1609.34
 
 
+def alt_v_dist():
+	gpxfn = f'{direc}bft_race_10-2-22.gpx'
+	normto = 64.5
+	f = open(gpxfn, 'r')
+	gpx = gpxpy.parse(f)
+	pts = gpx.tracks[0].segments[0].points
+	'''compute distance (input is [lat, long])'''
+	latlon = np.array([[pt.latitude for pt in pts], [pt.longitude for pt in pts]])
+	dis = np.array([dist.distance(latlon[:, i], latlon[:, i + 1]).m for i in np.arange(len(latlon[0]) - 1)])  # m
+	# normalize to recorded distance- not sure why we don't get the same dist garmin recorded
+	print(f'data shows {sum(dis) / m_per_mi:.2f}mi, normalizing to {normto} recorded by Garmin')
+	dis *= normto / (sum(dis) / m_per_mi)
+	cumdist_mile = np.append(0, np.cumsum(dis / m_per_mi))
+	alt = np.array([pt.elevation for pt in pts])  # m
+	plt.plot(np.linspace(0, 1, endpoint=True, num=len(alt)), alt, label='alt')
+	plt.plot(cumdist_mile/normto, alt, label='alt v dist')
+	plt.legend()
+	plt.show()
+	a = 1
+
+
 def ascent_descent_flat(gpxfn, normto=None):
-	m_per_mi = 1609.34
 	f = open(gpxfn, 'r')
 	gpx = gpxpy.parse(f)
 	pts = gpx.tracks[0].segments[0].points
@@ -97,15 +117,17 @@ def ascent_descent_flat(gpxfn, normto=None):
 	axa.set_xlabel('ascent')
 	axb.set_xlabel('descent')
 	axc.set_xlabel('flat')
+	fig.suptitle(gpxfn)
+	fig2.suptitle(gpxfn)
 	plt.tight_layout()
-	
-	plt.show()
-	a = 1
 
 
 if __name__ == '__main__':
 	fn1 = f'{direc}bft_sec2_6-11-22.gpx'
 	fn2 = f'{direc}bft_south_7-16-22.gpx'
+	fn3 = f'{direc}bft_race_10-2-22.gpx'
 	
-	for fn, nt in zip([fn1, fn2], [17.47, 23.15]):
-		ascent_descent_flat(fn, normto=nt)
+	alt_v_dist()
+	# for fn, nt in zip([fn1, fn2, fn3], [17.47, 23.15, 64.5]):
+	# 	ascent_descent_flat(fn, normto=nt)
+	plt.show()
