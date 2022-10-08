@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="added bft run analysis">
-      <change afterPath="$PROJECT_DIR$/bike_to_work/bike_to_work.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike_to_work/madmap.html" afterDir="false" />
+    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="finalizing race_elevation&#10;also added bike to work stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bft_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/bft_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bike_to_work.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Black_Forest_Ultra_100k.gpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bft_race_10-2-22.gpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stone_mill_50M.gpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/superior_spring_50k.gpx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/race_elevation_profiles.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641592148078</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finalizing race_elevation&#10;also added bike to work stuff">
+      <created>1660679188826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660679188826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding race gpx files&#10;correcting to plot elevation vs distance, not elev vs index">
+      <created>1664983422958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664983422958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +256,9 @@
     <MESSAGE value="folder restructuring" />
     <MESSAGE value="added numbering to grandmas questions (and pathing for working on work laptop)" />
     <MESSAGE value="played w/ race_elevation_profiles.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="played w/ race_elevation_profiles.py" />
+    <MESSAGE value="finalizing race_elevation&#10;also added bike to work stuff" />
+    <MESSAGE value="adding race gpx files&#10;correcting to plot elevation vs distance, not elev vs index" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding race gpx files&#10;correcting to plot elevation vs distance, not elev vs index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,18 +289,8 @@
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/race_elevation_profiles.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/bft_analysis.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bft_analysis.py</url>
-          <line>99</line>
+          <line>121</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -296,6 +302,16 @@
           <url>file://$PROJECT_DIR$/bike_to_work/bike_to_work.py</url>
           <line>195</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/race_elevation_profiles.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bft_analysis.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
