@@ -190,6 +190,7 @@ def v3(col='#6b8e23'):
 
 
 def v4():
+	butt = 'head'
 	# v3 with gradient shading below
 	fig = plt.figure(figsize=[14.5, 2])
 	plt.axis('off')
