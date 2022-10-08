@@ -18,22 +18,23 @@ else:
 	direc = None
 	print('directory not found- where are you??')
 
-k50 = direc + 'superior_spring_50k.gpx'
-m50 = direc + 'stone_mill_50M.gpx'
-# k100 = direc + 'Black_Forest_Ultra_100k.gpx'
-k100 = f'{direc}bft_race_10-2-22.gpx'
+k50 = direc + 'superior_race_5-19-18.gpx'
+m50 = direc + 'stonemill_race_11-14-20.gpx'
+k100 = f'{direc}blackforest_race_10-2-22.gpx'
 m_per_mi = 1609.34
 
 
 def compare_gpx():
-	fn1, fn2 = f'{direc}superior_spring_50k.gpx', f'{direc}superior_race_5-19-18.gpx'
+	fn1, fn2 = f'{direc}Black_Forest_Ultra_100k.gpx', f'{direc}blackforest_race_10-2-22.gpx'
 	fig, ax = plt.subplots()
 	for fn in [fn1, fn2]:
 		f = open(fn, 'r')
 		gpx = gpxpy.parse(f)
 		pts = gpx.tracks[0].segments[0].points
 		latlon = np.array([[pt.latitude for pt in pts], [pt.longitude for pt in pts]])
-		a = 1
+		print(f'{len(latlon[0, :])} pts found in {fn}')
+		ax.plot(latlon[0, :], latlon[1, :], label=fn)
+	ax.legend()
 
 
 def the_version():
@@ -41,14 +42,14 @@ def the_version():
 	# single line only, no messaging
 	fig1, ax1 = plt.subplots(figsize=[14.5, 2])
 	fig2, ax2 = plt.subplots(figsize=[14.5, 2])
-	gap, spacing, nnum = .02, 25, 750
+	gap, spacing, nnum = .01, 25, 750
 	x = np.linspace(0, 1, num=nnum, endpoint=True)
 	iends = int(nnum / 10)  # number of points to plot before/after
 	last = np.zeros_like(x)
 	# long = [('superior50k2018', k50), ('stonemill50M2020', m50), ('blackforest100k2022', k100)]
 	long = [('stonemill50M2020', m50), ('superior50k2018', k50), ('blackforest100k2022', k100)]
 	short = [('MN50k18', k50), ('MD50M20', m50), ('PA100k22', k100)]
-	# long = [long[0]]
+	long = [long[1], long[2]]
 	normto = 1 - gap
 	for i, (lbl, file) in enumerate(long):
 		f = open(file, 'r')
@@ -76,8 +77,8 @@ def the_version():
 		ax1.plot(xx, yy, 'k')
 		xstrt, xend = x[iroll - 1], (xalt[-1] + x[iroll - 1]) % 1
 		ystrt, yend = alt0[0] - offset, alt0[-1] - offset
-		ax1.plot([xstrt, xstrt - 1, xstrt + 1, xend, xend - 1, xend + 1], [ystrt, ystrt, ystrt, yend, yend, yend], 'ko',
-		         ms=3)
+		# ax1.plot([xstrt, xstrt - 1, xstrt + 1, xend, xend - 1, xend + 1], [ystrt, ystrt, ystrt, yend, yend, yend], 'ko',
+		#          ms=3)
 		last = y + spacing
 		if i == 0:
 			ax1.plot([0, 1], [-spacing, -spacing], 'b^', ms=5)
@@ -93,6 +94,7 @@ def the_version():
 
 if __name__ == '__main__':
 	the_version()
+	# compare_gpx()
 	plt.show()
 
 """old versions
