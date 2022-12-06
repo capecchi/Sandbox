@@ -21,8 +21,28 @@ else:
 k50 = direc + 'superior_race_5-19-18.gpx'
 m50 = direc + 'stonemill_race_11-14-20.gpx'
 k100 = f'{direc}blackforest_race_10-2-22.gpx'
+m100 = f'{direc}Zion_2023.gpx'
+# m100 = f'{direc}Bear_100.gpx'
 m_per_mi = 1609.34
 
+
+def lookat_gpx():
+	fn = f'{direc}Bear_100.gpx'
+	f = open(fn, 'r')
+	fig, (ax, ax2) = plt.subplots(ncols=2)
+	gpx = gpxpy.parse(f)
+	pts = gpx.tracks[0].segments[0].points
+	latlon = np.array([[pt.latitude for pt in pts], [pt.longitude for pt in pts]])
+	dis = np.array([dist.distance(latlon[:, i], latlon[:, i + 1]).m for i in np.arange(len(latlon[0]) - 1)])  # m
+	# dis *= normto / (sum(dis) / m_per_mi)
+	cumdist_mile = np.append(0, np.cumsum(dis / m_per_mi))
+	alt = np.array([pt.elevation for pt in pts])
+	print(f'{len(latlon[0, :])} pts found in {fn}')
+	ax.plot(latlon[0, :], latlon[1, :], label=fn)
+	ax.legend()
+	ax2.plot(cumdist_mile, alt)
+	plt.show()
+	
 
 def compare_gpx():
 	fn1, fn2 = f'{direc}Black_Forest_Ultra_100k.gpx', f'{direc}blackforest_race_10-2-22.gpx'
@@ -47,9 +67,9 @@ def the_version():
 	iends = int(nnum / 10)  # number of points to plot before/after
 	last = np.zeros_like(x)
 	# long = [('superior50k2018', k50), ('stonemill50M2020', m50), ('blackforest100k2022', k100)]
-	long = [('stonemill50M2020', m50), ('superior50k2018', k50), ('blackforest100k2022', k100)]
+	long = [('stonemill50M2020', m50), ('superior50k2018', k50), ('blackforest100k2022', k100), ('zion100m2023', m100)]
 	short = [('MN50k18', k50), ('MD50M20', m50), ('PA100k22', k100)]
-	long = [long[1], long[2]]
+	long = [long[1], long[2], long[3]]
 	normto = 1 - gap
 	for i, (lbl, file) in enumerate(long):
 		f = open(file, 'r')
@@ -94,6 +114,7 @@ def the_version():
 
 if __name__ == '__main__':
 	the_version()
+	# lookat_gpx()
 	# compare_gpx()
 	plt.show()
 
