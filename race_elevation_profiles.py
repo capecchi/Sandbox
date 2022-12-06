@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gpxpy
 import geopy.distance as dist
-
+# NO IDEA
 if os.path.isdir('C:/Users/Owner'):
 	direc = 'C:/Users/Owner/PycharmProjects/Sandbox/data/'
 elif os.path.isdir('C:/Users/wcapecch'):
