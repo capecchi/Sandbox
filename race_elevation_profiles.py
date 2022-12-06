@@ -1,12 +1,6 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import matplotlib.patches as patches
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFilter
-
 import gpxpy
 import geopy.distance as dist
 
