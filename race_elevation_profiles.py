@@ -52,11 +52,10 @@ def compare_gpx():
 
 
 def the_version():
-	# todo: figure out sizing- and better to leave height so that if we add a race tat gets taller, not squished
 	# single line only, no messaging
 	fig1, ax1 = plt.subplots(figsize=[14.5, 2])
 	fig2, ax2 = plt.subplots(figsize=[14.5, 2])
-	gap, spacing, nnum = .01, 25, 750
+	gap, spacing, nnum = .01, 50, 750
 	x = np.linspace(0, 1, num=nnum, endpoint=True)
 	iends = int(nnum / 10)  # number of points to plot before/after
 	last = np.zeros_like(x)
