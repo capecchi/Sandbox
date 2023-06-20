@@ -3,17 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gpxpy
 import geopy.distance as dist
+from helpful_stuff.tools import get_my_direc
 
-if os.path.isdir('C:/Users/Owner'):
-	direc = 'C:/Users/Owner/PycharmProjects/Sandbox/data/'
-elif os.path.isdir('C:/Users/wcapecch'):
-	direc = 'C:/Users/wcapecch/PycharmProjects/Sandbox/data/'
-else:
-	direc = None
-	print('directory not found- where are you??')
-
-k50 = direc + 'superior_race_5-19-18.gpx'
-m50 = direc + 'stonemill_race_11-14-20.gpx'
+direc = get_my_direc(append='PycharmProjects/Sandbox/data/',err='cannot locate gpx directory')
+k50 = f'{direc}superior_race_5-19-18.gpx'
+m50 = f'{direc}stonemill_race_11-14-20.gpx'
 k100 = f'{direc}blackforest_race_10-2-22.gpx'
 m100 = f'{direc}Zion_2023.gpx'
 # m100 = f'{direc}Bear_100.gpx'
