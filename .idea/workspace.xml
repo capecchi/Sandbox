@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="finalizing race_elevation&#10;also added bike to work stuff">
-      <change afterPath="$PROJECT_DIR$/helpful_stuff/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="removed a lot of dependencies on user">
+      <change afterPath="$PROJECT_DIR$/dog_sharing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eastern_states_weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpful_stuff/analyze_gpx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth_projection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/race_elevation_profiles.py" afterDir="false" />
     </list>
@@ -36,6 +38,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -55,8 +58,29 @@
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox\Freelance_Stuff\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.race_elevation_profiles">
-    <configuration name="bft_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.eastern_states_weather">
+    <configuration name="analyze_gpx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpful_stuff" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpful_stuff/analyze_gpx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dog_sharing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bft_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dog_sharing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,28 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bike_to_work (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Sandbox" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bike_to_work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bike_to_work/bike_to_work.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bike_to_work" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="eastern_states_weather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\wcapecch\PycharmProjects\Sandbox\bike_to_work\bike_to_work.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eastern_states_weather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="grandmas_questions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grandmas_questions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="race_elevation_profiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wealth_projection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/race_elevation_profiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wealth_projection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +165,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.grandmas_questions" />
-      <item itemvalue="Python.race_elevation_profiles" />
-      <item itemvalue="Python.bike_to_work" />
-      <item itemvalue="Python.bft_analysis" />
-      <item itemvalue="Python.bike_to_work (1)" />
+      <item itemvalue="Python.eastern_states_weather" />
+      <item itemvalue="Python.analyze_gpx" />
+      <item itemvalue="Python.dog_sharing" />
+      <item itemvalue="Python.wealth_projection" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.race_elevation_profiles" />
-        <item itemvalue="Python.bft_analysis" />
-        <item itemvalue="Python.bike_to_work (1)" />
-        <item itemvalue="Python.bike_to_work" />
-        <item itemvalue="Python.grandmas_questions" />
+        <item itemvalue="Python.eastern_states_weather" />
+        <item itemvalue="Python.analyze_gpx" />
+        <item itemvalue="Python.wealth_projection" />
+        <item itemvalue="Python.dog_sharing" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664983422958</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed a lot of dependencies on user">
+      <created>1687298475182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687298475182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +255,8 @@
     <MESSAGE value="played w/ race_elevation_profiles.py" />
     <MESSAGE value="finalizing race_elevation&#10;also added bike to work stuff" />
     <MESSAGE value="adding race gpx files&#10;correcting to plot elevation vs distance, not elev vs index" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding race gpx files&#10;correcting to plot elevation vs distance, not elev vs index" />
+    <MESSAGE value="removed a lot of dependencies on user" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed a lot of dependencies on user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,6 +305,31 @@
           <url>file://$PROJECT_DIR$/bft_analysis.py</url>
           <line>36</line>
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_analysis.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_analysis.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dog_sharing.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/helpful_stuff/analyze_gpx.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

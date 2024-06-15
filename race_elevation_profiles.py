@@ -14,35 +14,7 @@ m100 = f'{direc}Zion_2023.gpx'
 m_per_mi = 1609.34
 
 
-def lookat_gpx():
-	fn = f'{direc}Bear_100.gpx'
-	f = open(fn, 'r')
-	fig, (ax, ax2) = plt.subplots(ncols=2)
-	gpx = gpxpy.parse(f)
-	pts = gpx.tracks[0].segments[0].points
-	latlon = np.array([[pt.latitude for pt in pts], [pt.longitude for pt in pts]])
-	dis = np.array([dist.distance(latlon[:, i], latlon[:, i + 1]).m for i in np.arange(len(latlon[0]) - 1)])  # m
-	# dis *= normto / (sum(dis) / m_per_mi)
-	cumdist_mile = np.append(0, np.cumsum(dis / m_per_mi))
-	alt = np.array([pt.elevation for pt in pts])
-	print(f'{len(latlon[0, :])} pts found in {fn}')
-	ax.plot(latlon[0, :], latlon[1, :], label=fn)
-	ax.legend()
-	ax2.plot(cumdist_mile, alt)
-	plt.show()
-	
 
-def compare_gpx():
-	fn1, fn2 = f'{direc}Black_Forest_Ultra_100k.gpx', f'{direc}blackforest_race_10-2-22.gpx'
-	fig, ax = plt.subplots()
-	for fn in [fn1, fn2]:
-		f = open(fn, 'r')
-		gpx = gpxpy.parse(f)
-		pts = gpx.tracks[0].segments[0].points
-		latlon = np.array([[pt.latitude for pt in pts], [pt.longitude for pt in pts]])
-		print(f'{len(latlon[0, :])} pts found in {fn}')
-		ax.plot(latlon[0, :], latlon[1, :], label=fn)
-	ax.legend()
 
 
 def the_version():
