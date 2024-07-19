@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="removed a lot of dependencies on user">
-      <change afterPath="$PROJECT_DIR$/dog_sharing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eastern_states_weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful_stuff/analyze_gpx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wealth_projection.py" afterDir="false" />
+    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="wtf">
+      <change afterPath="$PROJECT_DIR$/budget_burnrate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/running_stuff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toolbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zion_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/race_elevation_profiles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +40,10 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Owner\Documents\GitHub\Sandbox\Leftside_Design" />
@@ -58,7 +54,19 @@
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox\Freelance_Stuff\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.eastern_states_weather">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.budget_burnrate">
     <configuration name="analyze_gpx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpful_stuff/analyze_gpx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="budget_burnrate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/budget_burnrate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,27 +151,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sandbox" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="wealth_projection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,19 +177,19 @@
       <item itemvalue="Python.analyze_gpx" />
       <item itemvalue="Python.dog_sharing" />
       <item itemvalue="Python.wealth_projection" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.budget_burnrate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.budget_burnrate" />
         <item itemvalue="Python.eastern_states_weather" />
         <item itemvalue="Python.analyze_gpx" />
         <item itemvalue="Python.wealth_projection" />
         <item itemvalue="Python.dog_sharing" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,7 +251,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -330,6 +340,11 @@
           <url>file://$PROJECT_DIR$/helpful_stuff/analyze_gpx.py</url>
           <line>31</line>
           <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/budget_burnrate.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
