@@ -202,8 +202,8 @@ def main(num_digits, top=False, e=False, phi=False, euler=False, catalan=False,
 if __name__ == '__main__':
     # main(30)
     # main(30, base10=True)
-    # digify(30, base=3)
+    digify(30, base=3)
     # digify(30, base=4)
     # digify2(30, base=3)
-    digify2(50, base=2)
+    # digify2(50, base=2)
     plt.show()

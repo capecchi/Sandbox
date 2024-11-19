@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 https://www.cluetrust.com/Schemas/gpxdata10.xsd" creator="COROS Wearables" version="1.1">
+ <metadata>
+  <link href="https://www.coros.com">
+   <text>COROS</text>
+  </link>
+  <time>2024-09-21T12:00:13Z</time>
+ </metadata>
+ <trk>
+  <name>Running</name>
+  <type>running</type>
+  <trkseg>
+   <trkpt lat="47.3916015" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:14Z</time>
+    <extensions>
+     <gpxdata:hr>113</gpxdata:hr>
+     <gpxdata:distance>0.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916053" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:15Z</time>
+    <extensions>
+     <gpxdata:hr>114</gpxdata:hr>
+     <gpxdata:distance>0.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916168" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:16Z</time>
+    <extensions>
+     <gpxdata:hr>116</gpxdata:hr>
+     <gpxdata:distance>0.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916282" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:17Z</time>
+    <extensions>
+     <gpxdata:hr>118</gpxdata:hr>
+     <gpxdata:distance>0.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916397" lon="-121.0914916">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:18Z</time>
+    <extensions>
+     <gpxdata:hr>120</gpxdata:hr>
+     <gpxdata:distance>4.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>0.017</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916549" lon="-121.0914916">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:19Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>8.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>0.031</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916702" lon="-121.0914916">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:20Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>10.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>0.042</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3916931" lon="-121.0914916">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:21Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>12.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>0.053</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3917083" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:22Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>14.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>1.181</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3917312" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:23Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>17.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.317</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3917503" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:24Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>19.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.342</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3917732" lon="-121.0914993">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:25Z</time>
+    <extensions>
+     <gpxdata:hr>122</gpxdata:hr>
+     <gpxdata:distance>22.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.369</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3917999" lon="-121.0915069">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:26Z</time>
+    <extensions>
+     <gpxdata:hr>125</gpxdata:hr>
+     <gpxdata:distance>24.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.381</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3918228" lon="-121.0915069">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:27Z</time>
+    <extensions>
+     <gpxdata:hr>127</gpxdata:hr>
+     <gpxdata:distance>27.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.392</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3918418" lon="-121.0915069">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:28Z</time>
+    <extensions>
+     <gpxdata:hr>129</gpxdata:hr>
+     <gpxdata:distance>29.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.392</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3918647" lon="-121.0915069">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:29Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>32.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.392</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3918838" lon="-121.0915222">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:30Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>34.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.403</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3919067" lon="-121.0915222">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:31Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>37.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.414</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3919296" lon="-121.0915222">
+    <ele>715</ele>
+    <time>2024-09-21T12:00:32Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>39.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.417</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3919486" lon="-121.0915298">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:33Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>41.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.428</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3919677" lon="-121.0915298">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:34Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>43.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.414</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3919868" lon="-121.0915451">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:35Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>46.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.400</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3920097" lon="-121.0915527">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:36Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>48.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.383</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3920249" lon="-121.0915603">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:37Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>50.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.369</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3920478" lon="-121.0915756">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:38Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>52.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.353</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3920631" lon="-121.0915832">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:39Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>55.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.333</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3920822" lon="-121.0915985">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:40Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>57.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.328</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921012" lon="-121.0916137">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:41Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>59.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.319</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921165" lon="-121.0916290">
+    <ele>716</ele>
+    <time>2024-09-21T12:00:42Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>61.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.314</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921318" lon="-121.0916366">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:43Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>64.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.306</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921470" lon="-121.0916595">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:44Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>66.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.308</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921661" lon="-121.0916824">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:45Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>68.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.314</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921737" lon="-121.0917053">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:46Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>70.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.308</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3921852" lon="-121.0917205">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:47Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>72.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.306</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922004" lon="-121.0917434">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:48Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>74.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.292</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922119" lon="-121.0917663">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:49Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>77.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.281</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922271" lon="-121.0917892">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:50Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>79.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.267</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922386" lon="-121.0918121">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:51Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>81.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.256</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922538" lon="-121.0918350">
+    <ele>717</ele>
+    <time>2024-09-21T12:00:52Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>83.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.250</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922653" lon="-121.0918502">
+    <ele>718</ele>
+    <time>2024-09-21T12:00:53Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>86.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.242</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922843" lon="-121.0918731">
+    <ele>718</ele>
+    <time>2024-09-21T12:00:54Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>88.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.244</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3922920" lon="-121.0918960">
+    <ele>718</ele>
+    <time>2024-09-21T12:00:55Z</time>
+    <extensions>
+     <gpxdata:hr>130</gpxdata:hr>
+     <gpxdata:distance>90.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.250</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923110" lon="-121.0919189">
+    <ele>718</ele>
+    <time>2024-09-21T12:00:56Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>92.50</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.250</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923263" lon="-121.0919418">
+    <ele>718</ele>
+    <time>2024-09-21T12:00:57Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>95.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.253</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923377" lon="-121.0919723">
+    <ele>719</ele>
+    <time>2024-09-21T12:00:58Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>97.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.264</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923530" lon="-121.0919952">
+    <ele>719</ele>
+    <time>2024-09-21T12:00:59Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>100.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.278</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923683" lon="-121.0920104">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:00Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>102.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.281</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923835" lon="-121.0920333">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:01Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>105.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.289</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3923988" lon="-121.0920562">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:02Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>107.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.297</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924179" lon="-121.0920867">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:03Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>110.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.308</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924255" lon="-121.0921096">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:04Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>112.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.317</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924446" lon="-121.0921325">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:05Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>114.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.325</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924598" lon="-121.0921554">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:06Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>116.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.314</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924713" lon="-121.0921783">
+    <ele>719</ele>
+    <time>2024-09-21T12:01:07Z</time>
+    <extensions>
+     <gpxdata:hr>131</gpxdata:hr>
+     <gpxdata:distance>119.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.306</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924865" lon="-121.0921936">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:08Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>121.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.306</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3924980" lon="-121.0922164">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:09Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>123.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.306</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3925132" lon="-121.0922393">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:10Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>125.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.317</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3925285" lon="-121.0922622">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:11Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>128.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.331</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3925437" lon="-121.0922851">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:12Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>130.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.331</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3925628" lon="-121.0922927">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:13Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>132.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.339</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3925819" lon="-121.0923004">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:14Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>134.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.339</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3925971" lon="-121.0923156">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:15Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>137.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.339</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3926200" lon="-121.0923156">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:16Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>139.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.333</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3926429" lon="-121.0923233">
+    <ele>720</ele>
+    <time>2024-09-21T12:01:17Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>142.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.331</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3926582" lon="-121.0923156">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:18Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>144.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.331</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3926811" lon="-121.0923004">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:19Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>146.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.328</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3926963" lon="-121.0922927">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:20Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>148.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.319</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927116" lon="-121.0922698">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:21Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>150.00</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.317</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927268" lon="-121.0922470">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:22Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>152.50</gpxdata:distance>
+     <gpxdata:cadence>79</gpxdata:cadence>
+     <gpxdata:speed>2.306</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927383" lon="-121.0922393">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:23Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>155.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.294</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927536" lon="-121.0922164">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:24Z</time>
+    <extensions>
+     <gpxdata:hr>132</gpxdata:hr>
+     <gpxdata:distance>157.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.269</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927650" lon="-121.0921936">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:25Z</time>
+    <extensions>
+     <gpxdata:hr>133</gpxdata:hr>
+     <gpxdata:distance>159.00</gpxdata:distance>
+     <gpxdata:cadence>78</gpxdata:cadence>
+     <gpxdata:speed>2.250</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927803" lon="-121.0921630">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:26Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>161.50</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.233</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3927993" lon="-121.0921401">
+    <ele>721</ele>
+    <time>2024-09-21T12:01:27Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>164.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.219</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928146" lon="-121.0921173">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:28Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>166.50</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.208</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928260" lon="-121.0921020">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:29Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>169.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.203</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928413" lon="-121.0920791">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:30Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>171.50</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.200</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928565" lon="-121.0920562">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:31Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>174.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.194</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928718" lon="-121.0920333">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:32Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>176.00</gpxdata:distance>
+     <gpxdata:cadence>76</gpxdata:cadence>
+     <gpxdata:speed>2.189</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928833" lon="-121.0920104">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:33Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>178.00</gpxdata:distance>
+     <gpxdata:cadence>76</gpxdata:cadence>
+     <gpxdata:speed>2.181</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3928985" lon="-121.0919952">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:34Z</time>
+    <extensions>
+     <gpxdata:hr>134</gpxdata:hr>
+     <gpxdata:distance>180.50</gpxdata:distance>
+     <gpxdata:cadence>76</gpxdata:cadence>
+     <gpxdata:speed>2.181</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3929138" lon="-121.0919723">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:35Z</time>
+    <extensions>
+     <gpxdata:hr>135</gpxdata:hr>
+     <gpxdata:distance>183.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.181</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3929328" lon="-121.0919494">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:36Z</time>
+    <extensions>
+     <gpxdata:hr>135</gpxdata:hr>
+     <gpxdata:distance>185.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.192</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3929481" lon="-121.0919265">
+    <ele>722</ele>
+    <time>2024-09-21T12:01:37Z</time>
+    <extensions>
+     <gpxdata:hr>135</gpxdata:hr>
+     <gpxdata:distance>187.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.206</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3929634" lon="-121.0919036">
+    <ele>723</ele>
+    <time>2024-09-21T12:01:38Z</time>
+    <extensions>
+     <gpxdata:hr>136</gpxdata:hr>
+     <gpxdata:distance>189.50</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.217</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3929748" lon="-121.0918960">
+    <ele>723</ele>
+    <time>2024-09-21T12:01:39Z</time>
+    <extensions>
+     <gpxdata:hr>136</gpxdata:hr>
+     <gpxdata:distance>192.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.228</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3929901" lon="-121.0918731">
+    <ele>723</ele>
+    <time>2024-09-21T12:01:40Z</time>
+    <extensions>
+     <gpxdata:hr>136</gpxdata:hr>
+     <gpxdata:distance>194.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.231</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3930053" lon="-121.0918502">
+    <ele>723</ele>
+    <time>2024-09-21T12:01:41Z</time>
+    <extensions>
+     <gpxdata:hr>136</gpxdata:hr>
+     <gpxdata:distance>196.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.239</gpxdata:speed>
+    </extensions>
+   </trkpt>
+   <trkpt lat="47.3930168" lon="-121.0918350">
+    <ele>723</ele>
+    <time>2024-09-21T12:01:42Z</time>
+    <extensions>
+     <gpxdata:hr>136</gpxdata:hr>
+     <gpxdata:distance>198.00</gpxdata:distance>
+     <gpxdata:cadence>77</gpxdata:cadence>
+     <gpxdata:speed>2.233</gpxdata:speed>
+    </extensions>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>

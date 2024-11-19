@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="removed a lot of dependencies on user">
-      <change afterPath="$PROJECT_DIR$/dog_sharing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eastern_states_weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful_stuff/analyze_gpx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wealth_projection.py" afterDir="false" />
+    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="6/15 update">
+      <change afterPath="$PROJECT_DIR$/coros_time_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration_windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tat_idea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wser_lottery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Bear_100.gpx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piyak.py" beforeDir="false" afterPath="$PROJECT_DIR$/piyak.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/race_elevation_profiles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +41,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Owner\Documents\GitHub\Sandbox\Leftside_Design" />
@@ -58,29 +59,8 @@
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox\Freelance_Stuff\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.eastern_states_weather">
-    <configuration name="analyze_gpx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sandbox" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpful_stuff" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpful_stuff/analyze_gpx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dog_sharing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.wser_lottery">
+    <configuration name="coros_time_error" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dog_sharing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coros_time_error.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eastern_states_weather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="piyak" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eastern_states_weather.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/piyak.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="race_elevation_profiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/race_elevation_profiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wealth_projection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="registration_windows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +135,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wealth_projection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/registration_windows.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wser_lottery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wser_lottery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,19 +166,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.eastern_states_weather" />
-      <item itemvalue="Python.analyze_gpx" />
-      <item itemvalue="Python.dog_sharing" />
-      <item itemvalue="Python.wealth_projection" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.wser_lottery" />
+      <item itemvalue="Python.coros_time_error" />
+      <item itemvalue="Python.registration_windows" />
+      <item itemvalue="Python.race_elevation_profiles" />
+      <item itemvalue="Python.piyak" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.eastern_states_weather" />
-        <item itemvalue="Python.analyze_gpx" />
-        <item itemvalue="Python.wealth_projection" />
-        <item itemvalue="Python.dog_sharing" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.wser_lottery" />
+        <item itemvalue="Python.registration_windows" />
+        <item itemvalue="Python.coros_time_error" />
+        <item itemvalue="Python.race_elevation_profiles" />
+        <item itemvalue="Python.piyak" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687298475182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6/15 update">
+      <created>1718485967116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718485967116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +264,8 @@
     <MESSAGE value="finalizing race_elevation&#10;also added bike to work stuff" />
     <MESSAGE value="adding race gpx files&#10;correcting to plot elevation vs distance, not elev vs index" />
     <MESSAGE value="removed a lot of dependencies on user" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed a lot of dependencies on user" />
+    <MESSAGE value="6/15 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/15 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,6 +339,41 @@
           <url>file://$PROJECT_DIR$/helpful_stuff/analyze_gpx.py</url>
           <line>31</line>
           <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tat_idea.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tat_idea.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tat_idea.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/race_elevation_profiles.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/registration_windows.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/coros_time_error.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/registration_windows.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
