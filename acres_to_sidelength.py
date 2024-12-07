@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-acres = np.linspace(0, 100, num=500, endpoint=True)
+acres = np.linspace(0, 400, num=500, endpoint=True)
 conv = 43560.  # sqft/acre
 sqft = conv * acres
 square_lot_side_ft = np.sqrt(sqft)

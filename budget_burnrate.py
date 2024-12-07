@@ -30,40 +30,43 @@ period = [datetime.date(2018, 7, 1) + relativedelta(months=m) for m in range(len
 # fit burn rate
 ignore_months = 18  # ignore first years spendrate
 fit = np.polyfit(
-	[(period[ignore_months:][i] - period[ignore_months:][0]).days for i in range(len(period[ignore_months:]))],
-	cumsum[ignore_months:], 1)
+    [(period[ignore_months:][i] - period[ignore_months:][0]).days for i in range(len(period[ignore_months:]))],
+    cumsum[ignore_months:], 1)
 pred_final = fit[0] * (enddate - period[-1]).days + cumsum[-1]
 # fit recent burn rate
 fit2 = np.polyfit(
-	[(period[-12:][i] - period[-12:][0]).days for i in range(len(period[-12:]))], cumsum[-12:], 1)
+    [(period[-12:][i] - period[-12:][0]).days for i in range(len(period[-12:]))], cumsum[-12:], 1)
 pred_final2 = fit2[0] * (enddate - period[-1]).days + cumsum[-1]
-
-plt.axhline(budget, label='budget', c='r', ls='--')
-plt.axvline(enddate, label='grand end', c='k', ls='--')
-plt.plot(period, cumsum, label='total spent', c=clrs[0])
-plt.plot([period[-1], enddate], [cumsum[-1], pred_final], '--',
-         label=f'avg burn rate: ${fit[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final - budget:.0f}', c=clrs[1])
-plt.plot([period[-1], enddate], [cumsum[-1], pred_final2], '--',
-         label=f'past yr burn rate: ${fit2[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final2 - budget:.0f}',
-         c=clrs[2])
-plt.plot(period, cumsum, c=clrs[0])
-
 planned_rate1 = cumsum_planned1[-1] / ((planned1_yrend[-1] - planned1_yrend[0]).days * 12 / 365)
 planned_rate2 = cumsum_planned2[-1] / ((planned2_yrend[-1] - planned2_yrend[0]).days * 12 / 365)
 
 igap2 = np.where(np.array(period) == planned2_yrend[0])[0][0]
 igap1 = np.where(np.array(period) == planned1_yrend[-1])[0][0]
 gap_spending = cumsum[igap2] - cumsum[igap1]
-plt.plot(planned1_yrend, cumsum_planned1, 'gd--', label=f'planned original budget\n${planned_rate1 / 1000.:.1f}k/mo')
-plt.plot(planned2_yrend, cumsum_planned2 + cumsum_planned1[-1], 'gd-.',
-         label=f'planned extension budget\n${planned_rate2 / 1000.:.1f}k/mo')
-plt.plot(planned2_yrend, cumsum_planned2 + cumsum_planned1[-1] + gap_spending, 'gd-',
+
+fs = 16
+fig, ax = plt.subplots()
+ax.axhline(budget*1.e-6, label='budget', c='r', ls='--')
+ax.axvline(enddate, label='grand end', c='k', ls='--')
+ax.plot(period, cumsum*1.e-6, label='total spent', c=clrs[0])
+ax.plot([period[-1], enddate], np.array([cumsum[-1], pred_final])*1.e-6, '--',
+         label=f'avg burn rate: ${fit[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final - budget:.0f}', c=clrs[1])
+ax.plot([period[-1], enddate], np.array([cumsum[-1], pred_final2])*1.e-6, '--',
+         label=f'past yr burn rate: ${fit2[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final2 - budget:.0f}',
+         c=clrs[2])
+ax.plot(period, cumsum*1.e-6, c=clrs[0])
+
+ax.plot(planned1_yrend, cumsum_planned1*1.e-6, 'gd--', label=f'planned original budget\n${planned_rate1 / 1000.:.1f}k/mo')
+ax.plot(planned2_yrend, (cumsum_planned2 + cumsum_planned1[-1] + gap_spending)*1.e-6, 'gd-',
          label=f'planned extension w/gap spending')
-plt.plot(period[igap1:igap2], cumsum[igap1:igap2] + cumsum_planned1[-1] - cumsum[igap1], 'g', alpha=0.5)
-plt.plot(period[-1], cumsum[-1], 'ko')
+ax.plot(period[igap1:igap2], (cumsum[igap1:igap2] + cumsum_planned1[-1] - cumsum[igap1])*1.e-6, 'g', alpha=0.5)
+ax.plot(period[-1], cumsum[-1]*1.e-6, 'ko')
+ax.set_ylabel('spending (M$)', fontsize=fs)
+ax.set_xlabel('year', fontsize=fs)
+ax.tick_params(labelsize=fs-2)
 
 plt.legend()
 plt.show()
 
 if __name__ == '__main__':
-	pass
+    pass

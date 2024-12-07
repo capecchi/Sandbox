@@ -23,15 +23,13 @@ MORSE_CODE_DICT = {'A': '.-', 'B': '-...',
                    '?': '..--..', '/': '-..-.', '-': '-....-',
                    '(': '-.--.', ')': '-.--.-'}
 
-pct = 1 / 3.  # fraction a dot occupies
-dashlength = 1
-linespacing = 1
-linewidth = .2 * linespacing
 
-word = 'FERAL'
+def horizontal(word):
+    pct = 1 / 3.  # fraction a dot occupies
+    dashlength = 1
+    linespacing = 1
+    linewidth = .2 * linespacing
 
-
-def horizontal():
     endpts = []
     for ilett, letter in enumerate(word):
         xlett = 0
@@ -54,12 +52,42 @@ def horizontal():
     plt.show()
 
 
-def vertical():
-    mtn = np.array([[0, 0], [1, 3], [1.5, 2], [2.3, 2.5], [3, .3]])
-    plt.plot(mtn[:, 0], mtn[:, 1])
+def vertical(word):
+    fig, ax = plt.subplots()
+    pct = 1 / 3.  # fraction a dot occupies
+    dashlength = 1
+    yspacing = .4 * dashlength
+    xspacing = np.cumsum(np.array([0., .6, .8, .3, .7]) * dashlength)
+    linewidth = .2 * yspacing
+    yoff = np.array([0, 2, 1, -1.7, -.2]) * yspacing
+    trunks = np.array([5.5, 6, 6, 3, 5]) * yspacing
+
+    c_arr, endpts = [], []
+    for ilett, letter in enumerate(word):
+        xlett = xspacing[ilett]
+        ylett = yoff[ilett]
+        ax.plot([xlett, xlett], [ylett - trunks[ilett], ylett], 'k')
+        mrs = MORSE_CODE_DICT[letter]
+        for idit, ditdash in enumerate(mrs):
+            if ditdash == '.':
+                xwid = dashlength * pct
+            else:
+                xwid = dashlength
+            endpts.append([xlett - xwid / 2., ylett, xwid])
+            c_arr.append(clrs[ilett])
+            ylett -= yspacing
+    endpts = np.array(endpts)
+
+    for iseg, segs in enumerate(endpts):
+        ax.add_patch(Rectangle((segs[0], segs[1]), segs[2], linewidth, color=c_arr[iseg], alpha=.5, edgecolor=None))
+
+    plt.xlim((-dashlength / 2., xspacing[-1] + dashlength / 2.))
+    plt.ylim((min([min(yoff - trunks), min(endpts[:, 1]) - linewidth]), max(endpts[:, 1] + linewidth)))
+    ax.set_axis_off()
+    plt.tight_layout()
     plt.show()
 
 
 if __name__ == '__main__':
-    # horizontal()
-    vertical()
+    # horizontal('FERAL')
+    vertical('FERAL')
