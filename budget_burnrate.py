@@ -45,27 +45,45 @@ igap1 = np.where(np.array(period) == planned1_yrend[-1])[0][0]
 gap_spending = cumsum[igap2] - cumsum[igap1]
 
 fs = 16
-fig, ax = plt.subplots()
-ax.axhline(budget*1.e-6, label='budget', c='r', ls='--')
-ax.axvline(enddate, label='grand end', c='k', ls='--')
-ax.plot(period, cumsum*1.e-6, label='total spent', c=clrs[0])
-ax.plot([period[-1], enddate], np.array([cumsum[-1], pred_final])*1.e-6, '--',
-         label=f'avg burn rate: ${fit[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final - budget:.0f}', c=clrs[1])
-ax.plot([period[-1], enddate], np.array([cumsum[-1], pred_final2])*1.e-6, '--',
-         label=f'past yr burn rate: ${fit2[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final2 - budget:.0f}',
-         c=clrs[2])
-ax.plot(period, cumsum*1.e-6, c=clrs[0])
+fs2 = 11
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.axhline(budget * 1.e-6, c='r', ls='--')
+ax.axvline(enddate, c='k', ls='--')
+ax.annotate('budget', (datetime.date(2019, 1, 1), budget * 1.e-6 + .05), fontsize=fs2, color='r', fontweight='bold')
+ax.annotate('end\ndate', (enddate - datetime.timedelta(weeks=25), 1.7), rotation=90, fontsize=fs2, fontweight='bold')
 
-ax.plot(planned1_yrend, cumsum_planned1*1.e-6, 'gd--', label=f'planned original budget\n${planned_rate1 / 1000.:.1f}k/mo')
-ax.plot(planned2_yrend, (cumsum_planned2 + cumsum_planned1[-1] + gap_spending)*1.e-6, 'gd-',
-         label=f'planned extension w/gap spending')
-ax.plot(period[igap1:igap2], (cumsum[igap1:igap2] + cumsum_planned1[-1] - cumsum[igap1])*1.e-6, 'g', alpha=0.5)
-ax.plot(period[-1], cumsum[-1]*1.e-6, 'ko')
+# projections
+# ax.plot([period[-1], enddate], np.array([cumsum[-1], pred_final])*1.e-6, '--',
+#          label=f'avg burn rate: ${fit[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final - budget:.0f}', c=clrs[1])
+# ax.plot([period[-1], enddate], np.array([cumsum[-1], pred_final2])*1.e-6, '--',
+#          label=f'past yr burn rate: ${fit2[0] * 365 / 12 / 1000.:.1f}k/mo\noverrun: ${pred_final2 - budget:.0f}',
+#          c=clrs[2])
+
+ax.plot(period, cumsum * 1.e-6, c=clrs[0])
+
+ax.plot(planned1_yrend, cumsum_planned1 * 1.e-6, 'gd--',
+        label=f'planned original budget\n${planned_rate1 / 1000.:.1f}k/mo')
+ax.plot(planned2_yrend, (cumsum_planned2 + cumsum_planned1[-1] + gap_spending) * 1.e-6, 'gd-',
+        label=f'planned first extension\n${planned_rate2 / 1000.:.1f}k/mo')
+ax.plot(period[igap1:igap2], (cumsum[igap1:igap2] + cumsum_planned1[-1] - cumsum[igap1]) * 1.e-6, 'g:', alpha=0.5,
+        label='gap spending')
+ax.plot(period, cumsum * 1.e-6, label=f'spending\n(past yr: ${fit2[0] * 365 / 12 / 1000.:.1f}k/mo)', c=clrs[0])
+ax.plot(period[-1], cumsum[-1] * 1.e-6, 'ko')
+
+# proposed budget 289k
+prop_enddate = datetime.date(2026, 6, 1)
+prop_budget = 289000.
+prop_rate = prop_budget / ((prop_enddate - enddate).days * 12 / 365)
+
+ax.plot([enddate, prop_enddate], [budget * 1.e-6, (budget + prop_budget) * 1.e-6], 'o-', c=clrs[1],
+        label=f'proposed extension\n${prop_rate / 1000.:.1f}k/mo', linewidth=2)
+
 ax.set_ylabel('spending (M$)', fontsize=fs)
 ax.set_xlabel('year', fontsize=fs)
-ax.tick_params(labelsize=fs-2)
+ax.tick_params(labelsize=fs - 2)
 
-plt.legend()
+plt.legend(framealpha=1, fontsize=fs2, loc='lower right')
+plt.tight_layout()
 plt.show()
 
 if __name__ == '__main__':

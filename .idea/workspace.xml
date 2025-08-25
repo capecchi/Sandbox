@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="wser lottery simulation added">
-      <change beforePath="$PROJECT_DIR$/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="wser lottery simulation updated">
+      <change afterPath="$PROJECT_DIR$/financial_crap/analyze_uwcu_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financial_crap/effective_tax_rate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mob_spawner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/running_stuff/SHT_pdf_looker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acres_to_sidelength.py" beforeDir="false" afterPath="$PROJECT_DIR$/acres_to_sidelength.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bft_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/bft_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/budget_burnrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget_burnrate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tat_idea.py" beforeDir="false" afterPath="$PROJECT_DIR$/tat_idea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wser_lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/wser_lottery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coros_time_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/coros_time_error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eastern_states_weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/eastern_states_weather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_days_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/get_days_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/race_elevation_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/race_elevation_profiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/registration_windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/run_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running_stuff.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/running_stuff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth_projection.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial_crap/wealth_projection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wser_lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/wser_lottery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zion_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/zion_route.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +63,15 @@
       <recent name="C:\Users\Owner\Documents\GitHub\Sandbox\Leftside_Design" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\PycharmProjects\Sandbox\running_stuff" />
+      <recent name="C:\Users\willi\PycharmProjects\Sandbox\financial_crap" />
       <recent name="C:\Users\wcapecch\PycharmProjects\Sandbox\bike_to_work" />
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox" />
       <recent name="C:\Users\Owner\PycharmProjects\Sandbox\Freelance_Stuff\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wser_lottery">
-    <configuration name="acres_to_sidelength" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.SHT_pdf_looker">
+    <configuration name="SHT_pdf_looker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +79,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/running_stuff" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acres_to_sidelength.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/running_stuff/SHT_pdf_looker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analyze_uwcu_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial_crap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial_crap/analyze_uwcu_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="registration_windows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="effective_tax_rate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial_crap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/registration_windows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial_crap/effective_tax_rate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tat_idea" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mob_spawner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,28 +167,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tat_idea.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="wser_lottery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sandbox" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wser_lottery.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mob_spawner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,19 +177,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.acres_to_sidelength" />
-      <item itemvalue="Python.tat_idea" />
+      <item itemvalue="Python.SHT_pdf_looker" />
+      <item itemvalue="Python.effective_tax_rate" />
+      <item itemvalue="Python.analyze_uwcu_file" />
       <item itemvalue="Python.budget_burnrate" />
-      <item itemvalue="Python.wser_lottery" />
-      <item itemvalue="Python.registration_windows" />
+      <item itemvalue="Python.mob_spawner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.wser_lottery" />
-        <item itemvalue="Python.tat_idea" />
-        <item itemvalue="Python.acres_to_sidelength" />
+        <item itemvalue="Python.SHT_pdf_looker" />
+        <item itemvalue="Python.effective_tax_rate" />
+        <item itemvalue="Python.analyze_uwcu_file" />
+        <item itemvalue="Python.mob_spawner" />
         <item itemvalue="Python.budget_burnrate" />
-        <item itemvalue="Python.registration_windows" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732036592383</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="wser lottery simulation updated">
+      <option name="closed" value="true" />
+      <created>1733583977339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733583977339</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +293,8 @@
     <MESSAGE value="removed a lot of dependencies on user" />
     <MESSAGE value="6/15 update" />
     <MESSAGE value="wser lottery simulation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="wser lottery simulation added" />
+    <MESSAGE value="wser lottery simulation updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="wser lottery simulation updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,7 +325,7 @@
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bft_analysis.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/bft_analysis.py</url>
           <line>121</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -319,17 +340,17 @@
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bft_analysis.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/bft_analysis.py</url>
           <line>36</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run_analysis.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/run_analysis.py</url>
           <line>29</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run_analysis.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/run_analysis.py</url>
           <line>25</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
@@ -359,22 +380,22 @@
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/race_elevation_profiles.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/race_elevation_profiles.py</url>
           <line>47</line>
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/registration_windows.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/registration_windows.py</url>
           <line>41</line>
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/coros_time_error.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/coros_time_error.py</url>
           <line>125</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/registration_windows.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/registration_windows.py</url>
           <line>20</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
@@ -389,9 +410,29 @@
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/wser_lottery.py</url>
+          <url>file://$PROJECT_DIR$/running_stuff/wser_lottery.py</url>
           <line>97</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mob_spawner.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/financial_crap/analyze_uwcu_file.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/financial_crap/effective_tax_rate.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/financial_crap/effective_tax_rate.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="187" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
