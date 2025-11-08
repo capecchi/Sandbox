@@ -9,7 +9,7 @@ clrs = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
 direc = 'C:/Users/willi/PycharmProjects/Sandbox/financial_crap/data/'
 fp = f'{direc}History.csv'
-fp2 = f'{direc}Chase4159_Activity20230607_20250607_20250607.csv'
+fp2 = f'{direc}Chase_upto_2oct2025.csv'
 df = pd.read_csv(fp)
 bal = [float(b.replace('$', '')) for b in df['Balance']]
 dat = [datetime.datetime.strptime(d, '%m/%d/%Y') for d in df['Posted Date']]

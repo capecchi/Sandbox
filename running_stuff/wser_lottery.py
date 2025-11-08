@@ -13,19 +13,21 @@ clrs = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
 
 def get_ticket_distribution(year=2024):
+	nrunrs = 369  # num runners in 1984
 	if year == 2024:
 		entrants = [4434, 2216, 1233, 605, 420, 256, 147, 70, 8]
 		nrunrs = 270
 	if year == 2025:
 		entrants = [4122, 2461, 1472, 870, 441, 319, 202, 84, 21, 1]
 		nrunrs = 257
+	if year == 2026:
+		entrants = []
+		nrunrs = 0
 	num_tickets = [2 ** n for n in np.arange(len(entrants))]
-	return np.array(num_tickets), np.array(entrants)
+	return np.array(num_tickets), np.array(entrants), nrunrs
 
 
-def run_lottery(tick_arr, ent_arr):
-	nrunrs = 369  # num runners in 1984
-	nrunrs = 257  # num available past automatic entries for 2025
+def run_lottery(tick_arr, ent_arr, nrunrs):
 	nticks = ent_arr * tick_arr
 	# create runner id array
 	id_arr, tc_arr, tc_shrt, idnum = [], [], [], 0
@@ -80,14 +82,15 @@ def run_nsims(nruns, showevery=5, ihave=1):
 
 
 def run_thresh_sim(pct_thresh=.001, showevery=5, ihave=1, year=2025):
+	print(f'simulating {year} lottery...')
 	t1 = datetime.datetime.now()
-	nt, en = get_ticket_distribution(year=year)
+	nt, en, nrunrs = get_ticket_distribution(year=year)
 	w, pcts_agg, pct_change = None, None, pct_thresh * 2.  # set above pct thresh to ensure we run at least once
 	fig, ax = plt.subplots()
 	irun = 0
 	
 	while pct_change > pct_thresh:
-		pcts = run_lottery(nt, en)
+		pcts = run_lottery(nt, en, nrunrs)  # percentages chosen from each ticket bin
 		if w is None:
 			w = 1
 			pcts_agg = pcts
@@ -101,7 +104,7 @@ def run_thresh_sim(pct_thresh=.001, showevery=5, ihave=1, year=2025):
 			ax.plot(pcts_agg * 100, '--', alpha=0.5, label=f'run #{irun}')
 	prob_acc = 1 - np.cumprod(1 - pcts_agg)
 	ax.set_title(f'WSER {year}')
-	ax.plot(prob_acc * 100, 'ro--', label='cumulative acceptance model')
+	ax.plot(prob_acc * 100, 'ro:', label='cumulative acceptance model')
 	ax.plot(pcts_agg * 100, 'ko-', label='final model')
 	ax.set_xticks(np.arange(len(nt)), labels=[f'{t}' for t in nt])
 	ax.set_ylabel('pct chosen per ticket count')
