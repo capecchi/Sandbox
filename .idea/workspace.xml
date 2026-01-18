@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="created individual section maps for Superior pdfs">
-      <change afterPath="$PROJECT_DIR$/running_stuff/NP_roadmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/running_stuff/sht25_analysis.py" afterDir="false" />
+    <list default="true" id="7eee0be7-47ed-4326-8f48-730c7bc95723" name="Default" comment="wser 2026 data added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/100M_registrations.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/100M_registrations.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dog_sharing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial_crap/analyze_uwcu_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial_crap/analyze_uwcu_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running_stuff/registration_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/registration_windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running_stuff/NP_roadmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/NP_roadmap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/running_stuff/wser_lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_stuff/wser_lottery.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756141762478</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="NP_roadmap stuff added">
+      <option name="closed" value="true" />
+      <created>1762621476337</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762621476337</updated>
+    </task>
+    <task id="LOCAL-00012" summary="wser 2026 data added">
+      <option name="closed" value="true" />
+      <created>1765046902054</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765046902054</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +305,9 @@
     <MESSAGE value="wser lottery simulation added" />
     <MESSAGE value="wser lottery simulation updated" />
     <MESSAGE value="created individual section maps for Superior pdfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="created individual section maps for Superior pdfs" />
+    <MESSAGE value="NP_roadmap stuff added" />
+    <MESSAGE value="wser 2026 data added" />
+    <option name="LAST_COMMIT_MESSAGE" value="wser 2026 data added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,11 +418,6 @@
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/running_stuff/wser_lottery.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mob_spawner.py</url>
           <line>27</line>
           <option name="timeStamp" value="178" />
@@ -436,8 +444,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/running_stuff/NP_roadmap.py</url>
-          <line>230</line>
+          <line>235</line>
           <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/running_stuff/wser_lottery.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/running_stuff/wser_lottery.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="230" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -213,7 +213,7 @@ def plot_table():
     ax.spines[['right', 'top']].set_visible(False)
     plt.tight_layout()
 
-    fig2, ax2 = plt.subplots(figsize=(25, 6))
+    fig2, ax2 = plt.subplots(figsize=(15, 10))
     hvals = vals[1:, 0]  # home values
     hcols = goodcols[1:]
     sp = sorted(zip(hvals, hcols))
@@ -225,7 +225,12 @@ def plot_table():
     ax2.set_ylabel('travel time (hrs)')
     ax2.set_ylim(bottom=0)
     ax2.set_xlim((-.5, len(hcols) - .5))
-    ax2.hlines([10, 20, 30, 40, 50, 60], np.zeros(6) - .5, np.ones(6) * len(hcols), colors='k', alpha=.2)
+    # ax2.hlines([10, 20, 30, 40, 50, 60], np.zeros(6) - .5, np.ones(6) * len(hcols), colors='k', alpha=.2)
+    lbls = np.arange(4, 65, 2)
+    lblt = [f'{l}' for l in lbls]
+    ax2.set_yticks(lbls, lblt)
+    ax2.grid('minor')
+    ax2.set_ylim((0, 65))
 
     plt.tight_layout()
     plt.show()
